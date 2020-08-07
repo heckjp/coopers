@@ -50,7 +50,6 @@
                 <?php if( get_field('descricao_google') ): ?>
                     <p><?php the_field('descricao_google'); ?></p>
                 <?php endif; ?>
-            <p>Esteja entre os primeiros resultados nas buscas por estabelecimentos da sua categoria.</p>
             <p><strong>Cadastro grátis</strong> <img src="<?php echo get_template_directory_uri().'/img/Line 2.png';?>"> </p>
             </div>
         </div>
@@ -62,7 +61,6 @@
                 <?php if( get_field('descricao_alexa') ): ?>
                     <p><?php the_field('descricao_alexa'); ?></p>
                 <?php endif; ?>
-                <p>Você pergunta e a Alexa responde sgerindo o seu estabelecimento.</p>
                 <p><strong>Cadastro grátis</strong> <img src="<?php echo get_template_directory_uri().'/img/Line 2.png';?>"> </p>
             </div>
             <div class="cell small-12 medium-6 text-center">
