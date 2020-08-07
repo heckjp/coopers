@@ -85,7 +85,6 @@
                 <?php if( get_field('descricao_apple_maps') ): ?>
                     <p><?php the_field('descricao_apple_maps'); ?></p>
                 <?php endif; ?>
-                <p>Esteja entre os primeiros resultados nas buscas por estabelecimentos da sua categoria.</p>
                 <p><strong>Conheça o premium</strong> <img src="<?php echo get_template_directory_uri().'/img/Line 2.png';?>"> </p>
             </div>
         </div>
