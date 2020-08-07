@@ -1,0 +1,176 @@
+/*
+    Theme Name: Cooper
+    Author: Hector Yoshiyuki Nagao
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+
+header{
+    border-top: 30px#4AC959 solid;
+    font-size: 16px;
+    line-height: 24px;
+    background: url('img/BG.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    padding-bottom: 50px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu .menu-item a{
+    color:#000000;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menu .menu-item a:hover, .menu .menu-item a:active{
+    color: #4AC959;
+    text-decoration: none;
+    list-style: none;
+}
+
+footer{
+    margin-top:30px;
+    text-align: center;
+    background-color: #000000;
+    color:#ffffff;
+}
+
+.button{
+    background:#000000;
+}
+
+.button:hover, .button:active{
+    background-color: #4AC959;
+}
+.subtitulo{
+    color: #4AC959;
+    font-family: 'Poppins';
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.grey-text{
+    color: #979797;
+}
+
+.titulo{
+    font-family: 'Poppins';
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.dark-block{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.separator{
+    border: 4px solid #4AC959;
+}
+
+#integracoes{
+    padding:30px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    box-shadow: 0px 4px 12px rgba(66, 66, 66, 0.2);
+    background:url('img/Path.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin-bottom: 15px;
+}
+
+.gratis{
+    padding: 15px;
+    box-shadow: 0px 4px 60px rgba(66, 66, 66, 0.2);
+    border-top: 10px solid #979797;
+}
+
+.premium{
+    padding: 15px;
+    box-shadow: 0px 4px 60px rgba(66, 66, 66, 0.2);
+    border-top: 10px solid #4AC959;
+}
+
+#planos{
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+.free{
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #979797;
+}
+.prata{
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #4AC959;
+}
+
+.platinum{
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.image{
+    position: relative;
+    margin-top:-30%;
+    margin-left: 50%;
+    z-index:2;
+}
+
+.image-right{
+    position: relative;
+    margin-top:-30%;
+    margin-right: 50%;
+    z-index:2;
+}
+
+.square{
+    position: relative;
+    margin-top:-40%;
+    margin-left:20%;
+    z-index:-1;
+}
+
+.square-right{
+    position: relative;
+    margin-top:-40%;
+    margin-right:20%;
+    z-index:-1;
+}
+
+.premium-button{
+    background-color: #4AC959;
+}
+
+.premium-button:active, .premium-button:hover{
+    background-color: #000000;
+}
+
+.numeros{
+    font-family: 'Poppins';
+    line-height: 90px;
+    font-size: 60px;
+    font-weight: 600;
+}

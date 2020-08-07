@@ -1,0 +1,9 @@
+body.login div#login p#nav a,
+body.login div#login p#backtoblog a {
+    color: #4AC959 !important; /* Your link color. */
+}
+
+body.login div#login form#loginform p.submit {
+    background-color:#000;
+    color:#fff;
+}
